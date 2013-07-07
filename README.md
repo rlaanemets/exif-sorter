@@ -2,7 +2,7 @@ exif-sorter
 ===========
 
 
-!Work in progress!
+!Work in a slow progress!
 
 The objective is to write a program, which would read the EXIF data from image files (jpg-s at first) from a given directory, then make desired operations with them.
 
