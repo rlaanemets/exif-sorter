@@ -5,13 +5,13 @@ exif-sorter
 !Work in progress!
 
 The objective is to write a program, which would read the EXIF data
-from image files (jpg-s at first) from a given directory, then make
-desired operations with them.
+from jpg-s from a given directory, then make desired operations with them.
 
-The capabilities of the final program will be determined with the 
-speed of my progress, the first goal is to make a sorter based on 
-either shutter speed, aperture value, or ISO speed (or maybe even a
-combination of these parameters), or to display some statistics
-derived from these three parameters.
+I have a working sorter based on PIL (sorter.py) at this point. The other .py files are bits and pieces of code written in the progress. The sorter is not very user friendly or up to normal programming standards I think, but it works.
+It can sort jpg-s with exif data to folders based on six attributes, shutter speed, aperture, ISO speed, focal length, date and camera model.
 
-I have no idea what I am doing.
+
+Next I'll try to make it a bit more usable, and try to standardise it.
+
+
+I now seem to have some idea what I am doing.
